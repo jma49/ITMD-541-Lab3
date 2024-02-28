@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Space Mono', monospace;
     background-color: #121212;
     color: #E0E0E0;
     margin: 0;
@@ -9,6 +9,7 @@ body {
     background-color: #222831;
     padding: 20px;
     margin: auto;
+    border: #00ff00 3px solid;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     max-width: 600px;
@@ -17,7 +18,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    color: #92EE72;
+    color: #00ff00;
 }
 
 .form-group {
@@ -42,7 +43,7 @@ input {
     box-sizing: border-box;
     background-color: #393E46;
     border: none;
-    color: #92EE72;
+    color: #00ff00;
 }
 
 .background-container {
