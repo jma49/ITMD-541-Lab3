@@ -82,6 +82,7 @@ input {
     box-sizing: border-box;
     background-color: #393E46;
     border-color:#70F15E;
+    color: #70F15E;
 }
 
 @media screen and (max-width: 768px) {
