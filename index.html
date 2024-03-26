@@ -28,6 +28,9 @@
 
           <div class="form-group">
             <label for="tip">Tip:</label>
+            <!-- Since disabled would result in a darker display on mobile, 
+              I chose to use readonly. solving a real problem 
+              while also enabling the user to not be able to type. -->
             <input
               type="range"
               id="tip"
@@ -35,6 +38,7 @@
               min="0"
               max="100"
               value="18"
+              readonly 
             />
           </div>
 
@@ -44,13 +48,18 @@
               type="text"
               id="tipPercentage"
               name="Tip Percentage"
-              disabled
+              readonly
             />
           </div>
 
           <div class="form-group">
             <label for="tipAmount">Tip Amount:</label>
-            <input type="text" id="tipAmount" name="Tip Amount" disabled />
+            <input
+              type="text"
+              id="tipAmount"
+              name="Tip Amount"
+              readonly
+            />
           </div>
 
           <div class="form-group">
@@ -59,7 +68,7 @@
               type="text"
               id="totalBill"
               name="Total Bill with Tip"
-              disabled
+              readonly
             />
           </div>
         </form>
